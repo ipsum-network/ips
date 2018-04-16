@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ips_bg.qm</file>
+        <file alias="ca">locale/ips_ca.qm</file>
+        <file alias="cs">locale/ips_cs.qm</file>
+        <file alias="da">locale/ips_da.qm</file>
+        <file alias="de">locale/ips_de.qm</file>
+        <file alias="en">locale/ips_en.qm</file>
+        <file alias="en_US">locale/ips_en_US.qm</file>
+        <file alias="es">locale/ips_es.qm</file>
+        <file alias="fi">locale/ips_fi.qm</file>
+        <file alias="fr_FR">locale/ips_fr_FR.qm</file>
+        <file alias="it">locale/ips_it.qm</file>
+        <file alias="ja">locale/ips_ja.qm</file>
+        <file alias="ko_KR">locale/ips_ko_KR.qm</file>
+        <file alias="nl">locale/ips_nl.qm</file>
+        <file alias="pl">locale/ips_pl.qm</file>
+        <file alias="pt">locale/ips_pt.qm</file>
+        <file alias="pt_BR">locale/ips_pt_BR.qm</file>
+        <file alias="ro_RO">locale/ips_ro_RO.qm</file>
+        <file alias="ru">locale/ips_ru.qm</file>
+        <file alias="sk">locale/ips_sk.qm</file>
+        <file alias="sv">locale/ips_sv.qm</file>
+        <file alias="uk">locale/ips_uk.qm</file>
+        <file alias="zh_CN">locale/ips_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ips_zh_TW.qm</file>
+    </qresource>
+</RCC>

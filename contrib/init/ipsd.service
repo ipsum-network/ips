@@ -1,0 +1,26 @@
+[Unit]
+Description=IPS's distributed currency daemon
+After=network.target
+
+[Service]
+User=ips
+Group=ips
+
+Type=forking
+PIDFile=/var/lib/ipsd/ipsd.pid
+
+ExecStart=/usr/bin/ipsd -daemon -pid=/var/lib/ipsd/ipsd.pid \
+          -conf=/etc/ips/ips.conf -datadir=/var/lib/ipsd
+
+ExecStop=-/usr/bin/ips-cli -conf=/etc/ips/ips.conf \
+         -datadir=/var/lib/ipsd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

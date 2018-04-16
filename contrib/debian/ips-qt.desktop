@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ips
+Comment=Ips P2P Cryptocurrency
+Comment[fr]=Ips, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ips, eşten eşe kriptografik sanal para birimi
+Exec=ips-qt %u
+Terminal=false
+Type=Application
+Icon=ips128
+MimeType=x-scheme-handler/ips;
+Categories=Office;Finance;
