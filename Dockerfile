@@ -25,9 +25,9 @@ RUN add-apt-repository ppa:bitcoin/bitcoin && \
 
 WORKDIR /ips
 
-ENV IPS_VERSION v3.0.0.1 
+ENV IPS_VERSION v3.0.0.2 
 
-RUN git clone https://github.com/ipscoin/ips.git . && \
+RUN git clone https://github.com/ipsum-ce/ips.git . && \
     git checkout $IPS_VERSION && \
     ./autogen.sh && \
     ./configure && \
