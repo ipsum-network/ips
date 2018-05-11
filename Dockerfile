@@ -27,7 +27,7 @@ WORKDIR /ips
 
 ENV IPS_VERSION v3.0.0.2 
 
-RUN git clone https://github.com/ipsum-ce/ips.git . && \
+RUN git clone https://github.com/ipsum-network/ips.git . && \
     git checkout $IPS_VERSION && \
     ./autogen.sh && \
     ./configure && \
