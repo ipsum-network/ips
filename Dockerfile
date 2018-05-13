@@ -25,7 +25,7 @@ RUN add-apt-repository ppa:bitcoin/bitcoin && \
 
 WORKDIR /ips
 
-ENV IPS_VERSION v3.0.0.2 
+ENV IPS_VERSION testnet 
 
 RUN git clone https://github.com/ipsum-network/ips.git . && \
     git checkout $IPS_VERSION && \
