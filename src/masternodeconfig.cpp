@@ -63,12 +63,14 @@ bool CMasternodeConfig::read(std::string& strErr)
                 streamConfig.close();
                 return false;
             }
-        } else if (CService(ip).GetPort() == Params().GetDefaultPort()) {
-            strErr = _("Invalid port detected in masternode.conf") + "\n" +
-                     strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"" + "\n" +
-                     _("(22331 could be used only on mainnet)");
-            streamConfig.close();
-            return false;
+        } else if (Params().NetworkID() == CBaseChainParams::TESTNET) { 
+            if (CService(ip).GetPort() != Params().GetDefaultPort()) {
+                strErr = _("Invalid port detected in masternode.conf") + "\n" +
+                         strprintf(_("Line: %d"), linenumber) + "\n\"" + line + "\"" + "\n" +
+                         _("(22333 could be used only on testnet)");
+                streamConfig.close();
+                return false;
+            }
         }
 
 
