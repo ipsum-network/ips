@@ -1120,7 +1120,7 @@ bool AppInit2(boost::thread_group& threadGroup)
         if (!addrOnion.IsValid())
             return InitError(strprintf(_("Invalid -onion address: '%s'"), mapArgs["-onion"]));
         SetProxy(NET_TOR, addrOnion);
-        SetLimited(NET_TOR, false);
+        SetReachable(NET_TOR);
     }
 
     // see Step 2: parameter interactions for more information about these
