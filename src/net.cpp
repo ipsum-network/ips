@@ -370,14 +370,18 @@ CNode* FindNode(const CService& addr)
 CNode* ConnectNode(CAddress addrConnect, const char* pszDest, bool obfuScationMaster)
 {
     if (pszDest == NULL) {
+        LogPrintf("pszDest is NULL\n");
         // we clean masternode connections in CMasternodeMan::ProcessMasternodeConnections()
         // so should be safe to skip this and connect to local Hot MN on CActiveMasternode::ManageStatus()
-        if (IsLocal(addrConnect) && !obfuScationMaster)
+        if (IsLocal(addrConnect) && !obfuScationMaster) {
+            LogPrintf("ConnectNode: IsLocal(addrConnect) && !obsfuScationMaster is true, returning NULL\n");
             return NULL;
+        }
 
         // Look for an existing connection
         CNode* pnode = FindNode((CService)addrConnect);
         if (pnode) {
+            LogPrintf("ConnectNode: FindNode: existing connection established, returning pnode\n");
             pnode->fObfuScationMaster = obfuScationMaster;
 
             pnode->AddRef();
@@ -422,6 +426,7 @@ CNode* ConnectNode(CAddress addrConnect, const char* pszDest, bool obfuScationMa
         addrman.Attempt(addrConnect);
     }
 
+    LogPrintf("pszDest is not NULL, returning NULL\n");
     return NULL;
 }
 
