@@ -69,10 +69,12 @@ void CActiveMasternode::ManageStatus()
                 LogPrintf("CActiveMasternode::ManageStatus() - not capable: %s\n", notCapableReason);
                 return;
             }
-        } else if (service.GetPort() == Params().GetDefaultPort()) {
-            notCapableReason = strprintf("Invalid port: %u - %d is only supported on mainnet.", service.GetPort(),Params().GetDefaultPort());
-            LogPrintf("CActiveMasternode::ManageStatus() - not capable: %s\n", notCapableReason);
-            return;
+        } else if (Params().NetworkID() == CBaseChainParams::TESTNET) {
+            if (service.GetPort() != Params().GetDefaultPort()) {
+                notCapableReason = strprintf("Invalid port: %u - %d is only supported on testnet.", service.GetPort(),Params().GetDefaultPort());
+                LogPrintf("CActiveMasternode::ManageStatus() - not capable: %s\n", notCapableReason);
+                return;
+            }
         }
 
         LogPrintf("CActiveMasternode::ManageStatus() - Checking inbound connection to '%s'\n", service.ToString());
