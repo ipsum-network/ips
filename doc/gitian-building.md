@@ -377,7 +377,7 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/ipscoin/ips.git
+URL=https://github.com/ipsum-network/ips.git
 COMMIT=b616fb8ef0d49a919b72b0388b091aaec5849b96
 ./bin/gbuild --commit ips=${COMMIT} --url ips=${URL} ../ips/contrib/gitian-descriptors/gitian-linux.yml
 ./bin/gbuild --commit ips=${COMMIT} --url ips=${URL} ../ips/contrib/gitian-descriptors/gitian-win.yml
@@ -390,7 +390,7 @@ Signing externally
 If you want to do the PGP signing on another device that's also possible; just define `SIGNER` as mentioned
 and follow the steps in the build process as normal.
 
-    gpg: skipped "ipscoin": secret key not available
+    gpg: skipped "ipsum-network": secret key not available
 
 When you execute `gsign` you will get an error from GPG, which can be ignored. Copy the resulting `.assert` files
 in `gitian.sigs` to your signing machine and do

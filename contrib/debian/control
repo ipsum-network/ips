@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://ips.io
-Vcs-Git: git://github.com/ipscoin/ips.git
-Vcs-Browser: http://github.com/ipscoin/ips
+Vcs-Git: git://github.com/ipsum-network/ips.git
+Vcs-Browser: http://github.com/ipsum-network/ips
 
 Package: ipsd
 Architecture: any

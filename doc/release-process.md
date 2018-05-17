@@ -3,7 +3,7 @@ Release Process
 
 Before every release candidate:
 
-* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/ipscoin/ips/blob/master/doc/translation_process.md#synchronising-translations).
+* Update translations (ping Fuzzbawls on Slack) see [translation_process.md](https://github.com/ipsum-network/ips/blob/master/doc/translation_process.md#synchronising-translations).
 
 Before every minor and major release:
 
@@ -24,10 +24,10 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/ipscoin/gitian.sigs.git
-    git clone https://github.com/ipscoin/ips-detached-sigs.git
+    git clone https://github.com/ipsum-network/gitian.sigs.git
+    git clone https://github.com/ipsum-network/ips-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/ipscoin/ips.git
+    git clone https://github.com/ipsum-network/ips.git
 
 ### Ips maintainers/release engineers, suggestion for writing release notes
 
@@ -259,6 +259,6 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/ipscoin/ips/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/ipsum-network/ips/releases/new) with a link to the archived release notes.
 
   - Celebrate

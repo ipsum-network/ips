@@ -34,7 +34,7 @@ The following are developer notes on how to build Ips on your native platform. T
 
 Development
 ---------------------
-The Ips repo's [root README](https://github.com/ipscoin/ips/blob/master/README.md) contains relevant information on the development process and automated testing.
+The Ips repo's [root README](https://github.com/ipsum-network/ips/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

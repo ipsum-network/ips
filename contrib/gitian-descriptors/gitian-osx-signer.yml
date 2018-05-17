@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/ipscoin/ips-detached-sigs.git"
+- "url": "https://github.com/ipsum-network/ips-detached-sigs.git"
   "dir": "signature"
 files:
 - "ips-osx-unsigned.tar.gz"
