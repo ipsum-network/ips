@@ -6,7 +6,7 @@ Full info
 
 Ticker: IPS
 
-Algorithm: PoS
+Algorithm: X11
 
 Masternode colletral: 5000 IPS
 
