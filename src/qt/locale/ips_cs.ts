@@ -2,8 +2,8 @@
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Pravým kliknutím upravte adresu nebo popisek</translation>
+        <source>Right-click to edit the address or the label.</source>
+        <translation>Pravým kliknutím upravte adresu nebo popisek.</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -11,27 +11,27 @@
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nová</translation>
+        <translation>&amp;Nový</translation>
     </message>
     <message>
-        <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopírovat vybranou adresu do mezipaměti</translation>
+        <source>Copy the currently selected address to the system clipboard.</source>
+        <translation>Kopírovat vybranou adresu do mezipaměti.</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
         <translation>&amp;Kopírovat</translation>
     </message>
     <message>
-        <source>Delete the currently selected address from the list</source>
-        <translation>Smazat aktuálně vybranou adresu ze seznamu</translation>
+        <source>Delete the currently selected address from the list.</source>
+        <translation>Smazat aktuálně vybranou adresu ze seznamu.</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
         <translation>&amp;Smazat</translation>
     </message>
     <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exportovat data z aktuální záložky do souboru</translation>
+        <source>Export the data from the current tab to a file.</source>
+        <translation>Exportovat data z aktulní záložky do souboru.</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -42,12 +42,12 @@
         <translation>Z&amp;avřít</translation>
     </message>
     <message>
-        <source>Choose the address to send coins to</source>
-        <translation>Vyberte adresu, na kterou chcete poslat peníze</translation>
+        <source>Choose the address on which you want to send the coins.</source>
+        <translation>Vybrat adresu, na kterou chcete poslat mince.</translation>
     </message>
     <message>
-        <source>Choose the address to receive coins with</source>
-        <translation>Vyberte adresu pro přijetí peněz</translation>
+        <source>Choose the address on which you want to receive the coins.</source>
+        <translation>Vybrat adresu, na kterou chcete přijmout mince.</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -55,46 +55,46 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Adresy pro odeslání peněz</translation>
+        <translation>Adresy pro odeslání mincí</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Adresy pro přijetí peněz</translation>
+        <translation>Adresy pro přijetí mincí</translation>
     </message>
     <message>
-        <source>These are your Ips addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše Ips adresy pro zaslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your IPSUM addresses for sending the payments. Always check the amount and the receiving address before sending the coins.</source>
+        <translation>Toto jsou Vaše IPSUM adresy pro zasílání plateb. Vždy si překontrolujte množství peněz a cílovou adresu než mince odešlete.</translation>
     </message>
     <message>
-        <source>These are your Ips addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše Ips adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your IPSUM addresses for receiving the payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše IPSUM adresy pro přijímání plateb. Je doporučeno použít novou adresu pro každou transakci.</translation>
     </message>
     <message>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Kopírovat Adresu</translation>
+        <source>&amp;Copy the address</source>
+        <translation>&amp;Kopírovat adresu</translation>
     </message>
     <message>
-        <source>Copy &amp;Label</source>
-        <translation>Kopírovat &amp;Popis</translation>
+        <source>Copy &amp;the label</source>
+        <translation>Kopírovat &amp;popis</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
         <translation>&amp;Upravit</translation>
     </message>
     <message>
-        <source>Export Address List</source>
-        <translation>Exportovat Seznam Adres</translation>
+        <source>Export the address list</source>
+        <translation>Exportovat seznam adres</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Soubor oddělený čárkou (*.csv)</translation>
+        <translation>Soubor oddělený tečkou (*.csv)</translation>
     </message>
     <message>
-        <source>Exporting Failed</source>
-        <translation>Export selhal</translation>
+        <source>The export has failed.</source>
+        <translation>Export selhal.</translation>
     </message>
     <message>
-        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <source>There was an error while trying to save the address list to %1. Please, try again.</source>
         <translation>Objevila se chyba při pokusu o uložení seznamu adres do %1. Prosím, zkuste to znovu.</translation>
     </message>
 </context>
@@ -110,17 +110,17 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez popisku)</translation>
+        <translation>(bez popisu)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <source>Passphrase Dialog</source>
+        <source>Passphrase dialog</source>
         <translation>Dialog frázového hesla</translation>
     </message>
     <message>
-        <source>Enter passphrase</source>
+        <source>Enter the passphrase</source>
         <translation>Zadejte frázové heslo</translation>
     </message>
     <message>
@@ -128,43 +128,43 @@
         <translation>Nové frázové heslo</translation>
     </message>
     <message>
-        <source>Repeat new passphrase</source>
+        <source>Repeat the new passphrase</source>
         <translation>Zopakujte frázové heslo</translation>
     </message>
     <message>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Slouží k zastavení zaslání jednoduché platby, pokud je OS účet kompromitován. Neposkytuje tak reálné zabezpečení.</translation>
+        <source>Serves to disable the trivial sendmoney when OS account is compromised. Provides no real security.</source>
+        <translation>Slouží k neumožnění zaslání jednoduché platby, pokud je OS účet kompromitován. Neposkytuje tak reálné zabezpeční.</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
+        <source>For the anonymization and the staking only</source>
         <translation>Pouze pro anonymizaci a sázení</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Zadejte nové frázové heslo pro Vaši peněženku &lt;br/&gt; Prosím, použijte frázové heslo z &lt;b&gt; deseti nebo více náhodných znaků &lt;/b&gt;, nebo&lt;b&gt; z osmi nebo více slov&lt;/b&gt;  .</translation>
+        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please, use the passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Zadejte nové frázové heslo pro Vaši peněženku &lt;br/&gt; Prosím, použijte frázové heslo z &lt;b&gt;deseti nebo více náhodných znaků &lt;/b&gt;, nebo&lt;b&gt;z osmi nebo více slov&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Encrypt wallet</source>
-        <translation>Zašifrovat peněženku</translation>
+        <source>Encrypt the wallet</source>
+        <translation>Šifrovat peněženku</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Pro tuto operaci potřebujete frázové heslo k odemčení Vaší paněženky.</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock the wallet</source>
         <translation>Odemknout peněženku</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Pro tuto operaci potřebujete frázové heslo pro odšifrování Vaší paněženky.</translation>
+        <translation>Pro tuto operaci potřebujete frázové heslo k odšifrování Vaší paněženky.</translation>
     </message>
     <message>
-        <source>Decrypt wallet</source>
+        <source>Decrypt the wallet</source>
         <translation>Odšifrovat peněženku</translation>
     </message>
     <message>
-        <source>Change passphrase</source>
+        <source>Change the passphrase</source>
         <translation>Změnit frázové heslo</translation>
     </message>
     <message>
@@ -172,36 +172,36 @@
         <translation>Zadejte staré a nové frázové heslo Vaší peněženky.</translation>
     </message>
     <message>
-        <source>Confirm wallet encryption</source>
+        <source>Confirm the wallet encryption</source>
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>Ips will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Ipss from being stolen by malware infecting your computer.</source>
-        <translation>Ips se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše Ipsy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>IPSUM wallet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your IPSUM coins from being stolen by malware infecting your computer.</source>
+        <translation>IPSUM peněženka se nyní zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše IPSUM mince před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Opravdu chcete zašifrovat Vaši peněženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Ips&lt;/b&gt;!</source>
-        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE Ipsy&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR IPSUM COINS&lt;/b&gt;!</source>
+        <translation>Varování: Pokud zašifrujete svou peněženku a ztratíte frázové heslo, tak &lt;b&gt;ZTRATÍTE VŠECHNY VAŠE IPSUM MINCElt;/b&gt;!</translation>
     </message>
     <message>
-        <source>Wallet encrypted</source>
-        <translation>Pěněženka byla zašifrována</translation>
+        <source>Wallet is encrypted</source>
+        <translation>Pěněženka je zašifrována</translation>
     </message>
     <message>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>DŮLEŽITÉ: Každá předešlá záloha, kterou jste provedli, by měla být nahrazena nově vygenerovanou, šifrovavou zálohou soboru Vaší peněženky. Z bezpečnostních důvodů budou všechny předešlé zálohy nezašifrované peněženky nepoužitelné, jakmile začnete používat nově zašifrovanou peněženku.</translation>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new encrypted wallet.</source>
+        <translation>DŮLEŽITÉ: Jakákoliv předešlá zaloha, kterou jste provedli, by měla být nahrazena nově vygenerovanou, šifrovavou zálohou soboru Vaší peněženky. Z bezpečnostních důvodů budou všechny předešlé zálohy nezašifrované peněženky nepoužitelné, jakmile začnete používat nově zašifrovanou peněženku.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
         <translation>Šifrování peněženky selhalo</translation>
     </message>
     <message>
-        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Šifrování peněženky selhalo kvůli vnitřní chybě aplikace. Vaše peněženka není zašifrovaná.</translation>
+        <source>Wallet encryption failed due to an internal error of the applicatio. Your wallet was not encrypted.</source>
+        <translation>Šifrování peněženky selhalo kvůli vnitřní chybě aplikace. Vaše peněženka nebyla zašifrována.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
@@ -209,15 +209,15 @@
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Uzamčení pěněženky selhalo</translation>
+        <translation>Odemčení pěněženky selhalo</translation>
     </message>
     <message>
-        <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Zadané frázové heslo pro dešifrování peněženky bylo špatné</translation>
+        <source>The passphrase entered for the wallet decryption was not valid.</source>
+        <translation>Zadané frázové heslo pro dešifrování peněženky nebylo validní.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Odšifrování peněženky selhalo</translation>
+        <translation>Dešifrování peněženky selhalo</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
@@ -232,23 +232,23 @@
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
-        <translation>Nástroj BIP 38</translation>
+        <translation>BIP 38 Nástroj</translation>
     </message>
     <message>
-        <source>&amp;BIP 38 Encrypt</source>
+        <source>&amp;BIP 38 Encryption</source>
         <translation>&amp;BIP 38 Šifrování</translation>
     </message>
     <message>
-        <source>Enter a Ips Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte Ips adresu, kterou si přejete zašifrovat pomocí BIP 38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter an IPSUM address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte IPSUM adresu, kterou si přejete zašifrovat pomocí BIP 38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovacího privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The Ips address to sign the message with</source>
-        <translation>Ips adresa pro podepsání zprávy</translation>
+        <source>The IPSUM address to sign the message with</source>
+        <translation>IPSUM adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -259,8 +259,8 @@
         <translation>Alt+A</translation>
     </message>
     <message>
-        <source>Paste address from clipboard</source>
-        <translation>Vložit adresu z mezipamětí</translation>
+        <source>Paste the address from the clipboard</source>
+        <translation>Vložit adresu z mezipaměti</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -271,28 +271,28 @@
         <translation>Frázové heslo:</translation>
     </message>
     <message>
-        <source>Encrypted Key:</source>
-        <translation>Šifrovaný Klíč:</translation>
+        <source>Encrypted key:</source>
+        <translation>Šifrovací klíč:</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Ips address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto Ips adresu</translation>
+        <source>Sign the message to prove you own this IPSUM address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto IPSUM adresu</translation>
     </message>
     <message>
-        <source>Encrypt &amp;Key</source>
-        <translation>Šifrovat &amp;Klíč</translation>
+        <source>Encrypt &amp;the key</source>
+        <translation>Šifrovat &amp;klíč</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Resetovat všechny položky podpisu zprávy</translation>
+        <translation>Resetovat všechny položky podepsání zprávy</translation>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>Smazat &amp;Vše</translation>
+        <source>Clear &amp;everything</source>
+        <translation>Smazat &amp;vše</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Decrypt</source>
@@ -300,18 +300,18 @@
     </message>
     <message>
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Vložte BIP 38 šifrovaný privátní klíč. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
+        <translation>Vložte BIP 38 šifrovací privátní klíč. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do peněženky.</translation>
     </message>
     <message>
-        <source>The Ips address the message was signed with</source>
-        <translation>Ips adresa zprávy byla podepsána</translation>
+        <source>The IPSUM address the message was signed with.</source>
+        <translation>IPSUM adresa, se kterou byla zpráva podepsána.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Ips address</source>
-        <translation>Ověřte zprávu pro ujištění, že byla podepsána zmíněnou Ips adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified IPSUM address.</source>
+        <translation>Ověřte zprávu pro ujištění, že byla podepsána zmíněnou IPSUM adresou.</translation>
     </message>
     <message>
-        <source>Decrypt &amp;Key</source>
+        <source>Decrypt &amp;the key</source>
         <translation>Dešifrovat &amp;Klíč</translation>
     </message>
     <message>
@@ -319,27 +319,27 @@
         <translation>Resetovat všechny položky pro ověření zprávy</translation>
     </message>
     <message>
-        <source>Decrypted Key:</source>
-        <translation>Dešifrovaný Klíč</translation>
+        <source>Decrypted key:</source>
+        <translation>Dešifrovaný klíč</translation>
     </message>
     <message>
-        <source>Import Address</source>
-        <translation>Importovat Adresu</translation>
+        <source>Import the address</source>
+        <translation>Importovat adresu</translation>
     </message>
     <message>
-        <source>Click "Decrypt Key" to compute key</source>
-        <translation>Kliněte na "Dešifrovat Klíč" pro výpočet klíče</translation>
+        <source>Click "Decrypt Key" to compute the key.</source>
+        <translation>Kliněte na "Dešifrovat Klíč" pro výpočet klíče.</translation>
     </message>
     <message>
-        <source>The entered passphrase is invalid. </source>
+        <source>The entered passphrase is not valid.</source>
         <translation>Zadané frázové heslo není validní.</translation>
     </message>
     <message>
-        <source>Allowed: 0-9,a-z,A-Z,</source>
-        <translation>Povoleno: 0-9,a-z,A-Z,</translation>
+        <source>Allowed: 0-9, a-z, A-Z</source>
+        <translation>Povoleno: 0-9, a-z, A-Z</translation>
     </message>
     <message>
-        <source>The entered address is invalid.</source>
+        <source>The entered address is not valid.</source>
         <translation>Zadaná adresa není validní.</translation>
     </message>
     <message>
@@ -351,7 +351,7 @@
         <translation>Zadaná adresa neodpovídá klíči.</translation>
     </message>
     <message>
-        <source>Wallet unlock was cancelled.</source>
+        <source>Wallet unlockation was cancelled.</source>
         <translation>Odemknutí peněženky bylo zrušeno.</translation>
     </message>
     <message>
@@ -359,15 +359,15 @@
         <translation>Privátní klíč pro zadanou adresu není dostupný.</translation>
     </message>
     <message>
-        <source>Failed to decrypt.</source>
+        <source>Decryption failed.</source>
         <translation>Dešifrování selhalo.</translation>
     </message>
     <message>
-        <source>Please check the key and passphrase and try again.</source>
-        <translation>Prosím, zkontrolujte klíč, frázové heslo a zkuste to znovu.</translation>
+        <source>Please check the key and the passphrase and try again.</source>
+        <translation>Prosím, zkontrolujte klíč a frázové heslo a zkuste to znovu.</translation>
     </message>
     <message>
-        <source>Data Not Valid.</source>
+        <source>Data are not valid.</source>
         <translation>Data nejsou validní.</translation>
     </message>
     <message>
@@ -375,20 +375,20 @@
         <translation>Prosím, zkuste to znovu.</translation>
     </message>
     <message>
-        <source>Please wait while key is imported</source>
-        <translation>Prosím, počkejte než se klíč importuje</translation>
+        <source>Please wait before the key will be imported.</source>
+        <translation>Prosím, počkejte než se klíč importuje.</translation>
     </message>
     <message>
-        <source>Key Already Held By Wallet</source>
-        <translation>Klíč se již nachází v peněžence</translation>
+        <source>Key is already held by the wallet.</source>
+        <translation>Klíč se již v peněžence nachází.</translation>
     </message>
     <message>
-        <source>Error Adding Key To Wallet</source>
-        <translation>Chyba při vkládání klíče do peněženky</translation>
+        <source>Error while adding the key to the wallet.</source>
+        <translation>Chyba při vkládání klíče do peněženky.</translation>
     </message>
     <message>
-        <source>Successfully Added Private Key To Wallet</source>
-        <translation>Klíč byl úspěšně přidán do peněženky</translation>
+        <source>Successfully added the private key to the wallet.</source>
+        <translation>Privátní klíč byl úspěšně přidán do peněženky.</translation>
     </message>
 </context>
 <context>
@@ -406,8 +406,8 @@
         <translation>&amp;Přehled</translation>
     </message>
     <message>
-        <source>Show general overview of wallet</source>
-        <translation>Zobrazit celkový přehled peněženky</translation>
+        <source>Show the general overview of the wallet</source>
+        <translation>Ukaž celkový přehled peněženky</translation>
     </message>
     <message>
         <source>&amp;Send</source>
@@ -427,10 +427,10 @@
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>O&amp;dejít</translation>
+        <translation>E&amp;xit</translation>
     </message>
     <message>
-        <source>Quit application</source>
+        <source>Quit an application</source>
         <translation>Zavřít aplikaci</translation>
     </message>
     <message>
@@ -438,8 +438,8 @@
         <translation>O &amp;Qt</translation>
     </message>
     <message>
-        <source>Show information about Qt</source>
-        <translation>Zobrazit informace o Qt</translation>
+        <source>Show an informations about Qt</source>
+        <translation>Ukaž informace o Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -450,59 +450,59 @@
         <translation>&amp;Zobrazit / Schovat</translation>
     </message>
     <message>
-        <source>Show or hide the main Window</source>
+        <source>Show or hide the main window</source>
         <translation>Zobrazit nebo schovat hlavní okno</translation>
     </message>
     <message>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Šifrovat Peněženku...</translation>
+        <source>&amp;Encrypt the wallet...</source>
+        <translation>&amp;Šifrovat peněženku...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Šifrovat privátní klíče náležící Vaší peněžence</translation>
     </message>
     <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Zálohovat Peněženku...</translation>
+        <source>&amp;Backup the wallet...</source>
+        <translation>&amp;Zálohovat peněženku...</translation>
     </message>
     <message>
-        <source>Backup wallet to another location</source>
+        <source>Backup the wallet to the another location</source>
         <translation>Zálohovat peněženku na jiné místo</translation>
     </message>
     <message>
-        <source>&amp;Change Passphrase...</source>
+        <source>&amp;Change the passphrase...</source>
         <translation>&amp;Změnit frázové heslo...</translation>
     </message>
     <message>
-        <source>Change the passphrase used for wallet encryption</source>
+        <source>Change the passphrase used for the wallet encryption</source>
         <translation>Změnit frázové heslo pro šifrování peněženky</translation>
     </message>
     <message>
-        <source>&amp;Unlock Wallet...</source>
+        <source>&amp;Unlock the wallet...</source>
         <translation>&amp;Odemknout peněženku...</translation>
     </message>
     <message>
-        <source>Unlock wallet</source>
+        <source>Unlock the wallet</source>
         <translation>Odemknout peněženku</translation>
     </message>
     <message>
-        <source>&amp;Lock Wallet</source>
-        <translation>&amp;Zamknout Peněženku</translation>
+        <source>&amp;Lock the wallet</source>
+        <translation>&amp;Zamknout peněženku</translation>
     </message>
     <message>
-        <source>Sign &amp;message...</source>
+        <source>Sign &amp;the message...</source>
         <translation>Podepsat &amp;zprávu...</translation>
     </message>
     <message>
-        <source>&amp;Verify message...</source>
+        <source>&amp;Verify the message...</source>
         <translation>&amp;Ověřit zprávu...</translation>
     </message>
     <message>
-        <source>&amp;Information</source>
+        <source>&amp;Informations</source>
         <translation>&amp;Informace</translation>
     </message>
     <message>
-        <source>Show diagnostic information</source>
+        <source>Show the diagnostic data</source>
         <translation>Zobrazit diagnostická data</translation>
     </message>
     <message>
@@ -510,15 +510,15 @@
         <translation>&amp;Ladící konzolce</translation>
     </message>
     <message>
-        <source>Open debugging console</source>
+        <source>Open the debug console</source>
         <translation>Otevřít ladící konzoli</translation>
     </message>
     <message>
-        <source>&amp;Network Monitor</source>
+        <source>&amp;Network monitoring</source>
         <translation>&amp;Monitorování sítě</translation>
     </message>
     <message>
-        <source>Show network monitor</source>
+        <source>Show the network monitoring</source>
         <translation>Zobrazit monitorování sítě</translation>
     </message>
     <message>
@@ -526,27 +526,27 @@
         <translation>&amp;Seznam peerů</translation>
     </message>
     <message>
-        <source>Show peers info</source>
-        <translation>Zobrazit informace peerů</translation>
+        <source>Show the peers info</source>
+        <translation>Zobrazit info peerů</translation>
     </message>
     <message>
-        <source>Wallet &amp;Repair</source>
-        <translation>&amp;Oprava Peněženky</translation>
+        <source>Wallet &amp;repair</source>
+        <translation>&amp;Oprava peněženky</translation>
     </message>
     <message>
-        <source>Show wallet repair options</source>
+        <source>Show the wallet repair options</source>
         <translation>Zobrazit možnosti opravy peněženky</translation>
     </message>
     <message>
-        <source>Open configuration file</source>
+        <source>Open the configuration file</source>
         <translation>Otevřít konfigurační soubor</translation>
     </message>
     <message>
-        <source>Show Automatic &amp;Backups</source>
-        <translation>Zobrazit Automatické &amp;Zálohy</translation>
+        <source>Show the automatic &amp;backups</source>
+        <translation>Zobrazit automatické &amp;zálohy</translation>
     </message>
     <message>
-        <source>Show automatically created wallet backups</source>
+        <source>Show the automatically created wallet backups</source>
         <translation>Zobrazit automaticky vytvořené zálohy peněženky</translation>
     </message>
     <message>
@@ -555,7 +555,7 @@
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Zobrazit seznam použitých adres a popisků pro odedslání platby</translation>
+        <translation>Zobrazit seznam použitých adres a popisků pro odedsílání plateb</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
@@ -563,7 +563,7 @@
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Zobrazit seznam použitých adres a popisků pro přijetí plateb</translation>
+        <translation>Zobrazit seznam použitých adres a popisků pro přijímání plateb</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -571,10 +571,10 @@
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>Možnosti příkazového řádku</translation>
+        <translation>Možnosti příkazové řádky</translation>
     </message>
     <message>
-        <source>Synchronizing additional data: %p%</source>
+        <source>Synchronizing the additional data: %p%</source>
         <translation>Synchronizuji přídavná data: %p%</translation>
     </message>
     <message>
@@ -598,51 +598,51 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>Ips</source>
-        <translation>Ips</translation>
+        <source>IPSUM</source>
+        <translation>IPSUM</translation>
     </message>
     <message>
-        <source>Send coins to a Ips address</source>
-        <translation>Odeslat platbu na Ips adresu</translation>
+        <source>Send coins to the IPSUM address</source>
+        <translation>Odeslat mince na IPSUM adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and ips: URIs)</source>
-        <translation>Vyžádat platbu (generování QR kódu a ips: URIs)</translation>
+        <source>Request the payment (generates QR codes and IPSUM: URIs)</source>
+        <translation>Vyžádat platbu (generuje QR kód a IPSUM: URIs)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
         <translation>&amp;Masternody</translation>
     </message>
     <message>
-        <source>Browse masternodes</source>
+        <source>Browse the masternodes</source>
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About Ips</source>
-        <translation>&amp;O Ips</translation>
+        <source>&amp;About IPSUM</source>
+        <translation>&amp;O IPSUM</translation>
     </message>
     <message>
-        <source>Show information about Ips</source>
-        <translation>Zobrazit informace o Ips</translation>
+        <source>Show the informations about IPSUM</source>
+        <translation>Zobrazit informace o IPSUM</translation>
     </message>
     <message>
-        <source>Modify configuration options for Ips</source>
-        <translation>Upravit možnosti konfigurace pro Ips</translation>
+        <source>Modify the configuration options for IPSUM</source>
+        <translation>Upravit možnosti konfigurace pro IPSUM</translation>
     </message>
     <message>
-        <source>Sign messages with your Ips addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší Ips adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign the messages with your IPSUM addresses to prove you own them</source>
+        <translation>Podepsat zprávy s Vašemi IPSUM adresami pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Ips addresses</source>
-        <translation>Ověřit zprávy k zajištění, že byly podepsány vybranými Ips adresami</translation>
+        <source>Verify the messages to ensure they were signed with the specified IPSUM addresses</source>
+        <translation>Ověřit zprávy k ujištění, že byly podepsány vybranými IPSUM adresami</translation>
     </message>
     <message>
-        <source>&amp;BIP38 tool</source>
-        <translation>&amp;Nástroj BIP38</translation>
+        <source>&amp;BIP 38 Tool</source>
+        <translation>&amp;BIP 38 Nástroj</translation>
     </message>
     <message>
-        <source>Encrypt and decrypt private keys using a passphrase</source>
+        <source>Encrypt and decrypt the private keys using a passphrase</source>
         <translation>Šifrovat a dešifrovat klíče s použitím frázového hesla</translation>
     </message>
     <message>
@@ -650,24 +650,24 @@
         <translation>&amp;MultiSend</translation>
     </message>
     <message>
-        <source>MultiSend Settings</source>
+        <source>MultiSend settings</source>
         <translation>Nastavení MultiSendu</translation>
     </message>
     <message>
-        <source>Open Wallet &amp;Configuration File</source>
-        <translation>Otevřít Konfigurační &amp;Soubor Peněženku</translation>
+        <source>Open the wallet &amp;configuration file</source>
+        <translation>Otevřít konfigurační &amp;soubor peněženky</translation>
     </message>
     <message>
-        <source>Open &amp;Masternode Configuration File</source>
-        <translation>Otevřít &amp;Konfigurační Soubor Masternodu</translation>
+        <source>Open &amp;the masternode configuration file</source>
+        <translation>Otevřít &amp;konfigurační soubor masternodu</translation>
     </message>
     <message>
-        <source>Open Masternode configuration file</source>
-        <translation>Otevřít konfigurační soubor Masternodu</translation>
+        <source>Open the masternode configuration file</source>
+        <translation>Otevřít konfigurační soubor masternodu</translation>
     </message>
     <message>
-        <source>Open a Ips: URI or payment request</source>
-        <translation>Otevřít Ips: URI nebo platební žádost</translation>
+        <source>Open IPSUM: URI or the payment request</source>
+        <translation>Otevřít IPSUM: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,27 +678,27 @@
         <translation>Okno průzkumníka bloků</translation>
     </message>
     <message>
-        <source>Show the Ips help message to get a list with possible Ips command-line options</source>
-        <translation>Zobrazit Ips pomocnou zprávu pro získání seznamu možných parametrů Ips pro příkazy do příkazového řádku</translation>
+        <source>Show the IPSUM help message to get a list with the possible IPSUM command-line options</source>
+        <translation>Zobrazit IPSUM pomocnou zprávu pro získání seznamu možných parametrů IPSUM pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>Ips client</source>
-        <translation>Ips klient</translation>
+        <source>IPSUM client</source>
+        <translation>IPSUM klient</translation>
     </message>
     <message>
-        <source>Synchronizing with network...</source>
+        <source>Synchronizing with the network...</source>
         <translation>Synchronizace se sítí...</translation>
     </message>
     <message>
-        <source>Importing blocks from disk...</source>
+        <source>Importing blocks from the drive...</source>
         <translation>Import bloků z disku...</translation>
     </message>
     <message>
-        <source>Reindexing blocks on disk...</source>
+        <source>Reindexing blocks on the drive...</source>
         <translation>Reindexace bloků na disku...</translation>
     </message>
     <message>
-        <source>No block source available...</source>
+        <source>No block source is available...</source>
         <translation>Není dostupný žádný zdroj bloků...</translation>
     </message>
     <message>
@@ -719,7 +719,7 @@
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Po této akci už nebudou transakce viditelné.</translation>
+        <translation>Po této akci již nebudou transakce viditelné.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -730,19 +730,19 @@
         <translation>Varování</translation>
     </message>
     <message>
-        <source>Information</source>
+        <source>Informations</source>
         <translation>Informace</translation>
     </message>
     <message>
-        <source>Sent transaction</source>
+        <source>Sent transactions</source>
         <translation>Odeslané transakce</translation>
     </message>
     <message>
-        <source>Incoming transaction</source>
+        <source>Incoming transactions</source>
         <translation>Příchozí transakce</translation>
     </message>
     <message>
-        <source>Sent MultiSend transaction</source>
+        <source>Send the MultiSend transaction</source>
         <translation>Odeslat MultiSend transakci</translation>
     </message>
     <message>
@@ -768,7 +768,7 @@ MultiSend: %1</translation>
         <translation>Aktivní</translation>
     </message>
     <message>
-        <source>Not Active</source>
+        <source>Not active</source>
         <translation>Neaktivní</translation>
     </message>
     <message>
@@ -778,23 +778,23 @@ MultiSend: %1</translation>
 MultiSend: %1</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně je &lt;b&gt;odemčená&lt;/b&gt;</translation>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;.</source>
+        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;odemčená&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně je &lt;b&gt;odemčená&lt;/b&gt; pouze pro anonymizaci a sázení</translation>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for the anonymization and staking only.</source>
+        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně je &lt;b&gt;odemčená&lt;/b&gt; pouze pro anonymizace a sázení.</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně je &lt;b&gt;zamčená&lt;/b&gt;</translation>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;.</source>
+        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně je &lt;b&gt;uzamčená&lt;/b&gt;.</translation>
     </message>
 </context>
 <context>
     <name>BlockExplorer</name>
     <message>
-        <source>Blockchain Explorer</source>
-        <translation>Průzkumník Blockchainu</translation>
+        <source>Blockchain explorer</source>
+        <translation>Blockchainový průzkumník</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
@@ -810,13 +810,13 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (ips.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (ips.conf) txindex=1.</translation>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí musíte nastavit v konfiguračním souboru (ips.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
-        <source>Network Alert</source>
+        <source>Network alert</source>
         <translation>Upozornění sítě</translation>
     </message>
 </context>
@@ -843,11 +843,11 @@ MultiSend: %1</translation>
         <translation>Poplatek:</translation>
     </message>
     <message>
-        <source>Coin Selection</source>
+        <source>Coin selection</source>
         <translation>Výběr mince</translation>
     </message>
     <message>
-        <source>After Fee:</source>
+        <source>After fee:</source>
         <translation>Po poplatku:</translation>
     </message>
     <message>
@@ -871,11 +871,11 @@ MultiSend: %1</translation>
         <translation>Hodnota</translation>
     </message>
     <message>
-        <source>Received with label</source>
+        <source>Received with the label</source>
         <translation>Obdrženo s popiskem</translation>
     </message>
     <message>
-        <source>Received with address</source>
+        <source>Received with the address</source>
         <translation>Obdrženo s adresou</translation>
     </message>
     <message>
@@ -895,19 +895,19 @@ MultiSend: %1</translation>
         <translation>Priorita</translation>
     </message>
     <message>
-        <source>Copy address</source>
+        <source>Copy the address</source>
         <translation>Kopírovat adresu</translation>
     </message>
     <message>
-        <source>Copy label</source>
+        <source>Copy the label</source>
         <translation>Kopírovat popisek</translation>
     </message>
     <message>
-        <source>Copy amount</source>
+        <source>Copy the amount</source>
         <translation>Kopírovat hodnotu</translation>
     </message>
     <message>
-        <source>Copy transaction ID</source>
+        <source>Copy the transaction ID</source>
         <translation>Kopírovat ID transakce</translation>
     </message>
     <message>
@@ -919,11 +919,11 @@ MultiSend: %1</translation>
         <translation>Odemknout neutracené</translation>
     </message>
     <message>
-        <source>Copy quantity</source>
-        <translation>Kopírovat množství</translation>
+        <source>Copy the quantity</source>
+        <translation>Kopírvoat množství</translation>
     </message>
     <message>
-        <source>Copy fee</source>
+        <source>Copy the fee</source>
         <translation>Kopírovat poplatek</translation>
     </message>
     <message>
@@ -931,15 +931,15 @@ MultiSend: %1</translation>
         <translation>Kopírovat po poplatku</translation>
     </message>
     <message>
-        <source>Copy bytes</source>
+        <source>Copy the bytes</source>
         <translation>Kopírovat byty</translation>
     </message>
     <message>
-        <source>Copy priority</source>
+        <source>Copy the priority</source>
         <translation>Kopírovat prioritu</translation>
     </message>
     <message>
-        <source>Copy change</source>
+        <source>Copy the change</source>
         <translation>Kopírovat změnu</translation>
     </message>
     <message>
@@ -972,7 +972,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>středně nízký</translation>
+        <translation>středně malý</translation>
     </message>
     <message>
         <source>low</source>
@@ -1003,11 +1003,11 @@ MultiSend: %1</translation>
         <translation>ne</translation>
     </message>
     <message>
-        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <source>This label turns red, if the transaction size will be greater than 1000 bytes.</source>
         <translation>Tento text zčervená, pokud bude velikost transakce větší než 1000 bytů.</translation>
     </message>
     <message>
-        <source>This means a fee of at least %1 per kB is required.</source>
+        <source>This means that a fee of at least %1 per kB is required.</source>
         <translation>To znaměná, že nejnižší nutný poplatek musí být nejméně %1 za kB.</translation>
     </message>
     <message>
@@ -1016,7 +1016,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transakce s vyšší prioritou bude pravděpodobněji zařazena do bloku.</translation>
+        <translation>Transakce s vyšší prioritou budou pravděpodobněji zařazeny do bloku.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
@@ -1042,7 +1042,7 @@ MultiSend: %1</translation>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <source>Edit Address</source>
+        <source>Edit the address</source>
         <translation>Upravit adresu</translation>
     </message>
     <message>
@@ -1050,35 +1050,35 @@ MultiSend: %1</translation>
         <translation>&amp;Popis</translation>
     </message>
     <message>
-        <source>&amp;Address</source>
+        <source>&amp;Addresses</source>
         <translation>&amp;Adresy</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nová adresa pro přijetí platby</translation>
+        <translation>Nová adresa pro přijímání plateb</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nová adresa k odeslání platby</translation>
+        <translation>Nová adresa k odesílání plateb</translation>
     </message>
     <message>
-        <source>Edit receiving address</source>
-        <translation>Upravit adresu pro přijetí platby</translation>
+        <source>Edit the receiving address</source>
+        <translation>Upravit adresu pro přijímání plateb</translation>
     </message>
     <message>
-        <source>Edit sending address</source>
-        <translation>Upravit adresu k odeslání platby</translation>
+        <source>Edit the sending address</source>
+        <translation>Upravit adresu k odesílání plateb</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Ips address.</source>
-        <translation>Zadaná adresa "%1" není validní Ips adresa.</translation>
+        <source>The entered address "%1" is not a valid IPSUM address.</source>
+        <translation>Zadaná adresa "%1" není validní IPSUM adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
         <translation>Zadaná adresa "%1" je již ve Vašem seznamu adres.</translation>
     </message>
     <message>
-        <source>Could not unlock wallet.</source>
+        <source>Could not unlock the wallet.</source>
         <translation>Nepodařilo se odemknout peněženku.</translation>
     </message>
     <message>
@@ -1090,7 +1090,7 @@ MultiSend: %1</translation>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Nová složka byla vytvořena.</translation>
+        <translation>Nová složka bude vytvořena.</translation>
     </message>
     <message>
         <source>name</source>
@@ -1101,11 +1101,11 @@ MultiSend: %1</translation>
         <translation>Složka již existuje. Přidejte %1 pokud zde chcete vytvořit novou složku.</translation>
     </message>
     <message>
-        <source>Path already exists, and is not a directory.</source>
-        <translation>Cesta již existuje, a není to složka</translation>
+        <source>Path already exists and it is not a directory.</source>
+        <translation>Cesta již existuje a není to složka.</translation>
     </message>
     <message>
-        <source>Cannot create data directory here.</source>
+        <source>Cannot create the data directory here.</source>
         <translation>Zde nelze vytvořit složku.</translation>
     </message>
 </context>
@@ -1116,24 +1116,24 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>Ips</source>
-        <translation>Ips</translation>
+        <source>IPSUM</source>
+        <translation>IPSUM</translation>
     </message>
     <message>
-        <source>About Ips</source>
-        <translation>O Ips</translation>
+        <source>About IPSUM</source>
+        <translation>O IPSUM</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Možnosti příkazového řádku</translation>
+        <translation>Možnosti příkazové řádky</translation>
     </message>
     <message>
         <source>Usage:</source>
         <translation>Použití:</translation>
     </message>
     <message>
-        <source>command-line options</source>
-        <translation>možnosti příkazového řádku</translation>
+        <source>Command-line options</source>
+        <translation>Možnosti příkazové řádky</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1144,8 +1144,8 @@ MultiSend: %1</translation>
         <translation>Spustit minimalizované</translation>
     </message>
     <message>
-        <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Nastavit SSL kořenový certifikát pro platební žádosti (výchozí: - system-)</translation>
+        <source>Set SSL root certificates for the payment requests (default: -system-)</source>
+        <translation>Nastavit SSL kořenový certifikát pro platební žádosti (výchozí: -system-)</translation>
     </message>
 </context>
 <context>
@@ -1155,28 +1155,28 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to Ips</source>
-        <translation>Vítejte v Ips</translation>
+        <source>Welcome to the IPSUM wallet</source>
+        <translation>Vítejte v IPSUM peněžence</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Ips will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude Ips ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where the IPSUM wallet will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude IPSUM peněženka ukládat svá data.</translation>
     </message>
     <message>
-        <source>Ips will download and store a copy of the Ips block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Ips stáhne a uloží kopii Ips Blockchainu. Nejméně %1GB dat bude do této složky uložen a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>IPSUM wallet will download and store a copy of the IPSUM Blockchain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>IPSUM peněženka stáhne a uloží kopii IPSUM Blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
         <translation>Použít výchozí nastavenou složku pro data</translation>
     </message>
     <message>
-        <source>Use a custom data directory:</source>
+        <source>Use a custom data directory</source>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>Ips</source>
-        <translation>Ips</translation>
+        <source>IPSUM</source>
+        <translation>IPSUM</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1192,18 +1192,18 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(z %1 GB je potřeba)</translation>
+        <translation>(z %1 GB potřeba)</translation>
     </message>
 </context>
 <context>
     <name>MasternodeList</name>
     <message>
-        <source>Form</source>
+        <source>From</source>
         <translation>Od</translation>
     </message>
     <message>
-        <source>My Masternodes</source>
-        <translation>Moje Masternody</translation>
+        <source>My masternodes</source>
+        <translation>Moje masternody</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1226,7 +1226,7 @@ MultiSend: %1</translation>
         <translation>Aktivní</translation>
     </message>
     <message>
-        <source>Pubkey</source>
+        <source>Public key</source>
         <translation>Veřejný klíč</translation>
     </message>
     <message>
@@ -1234,7 +1234,7 @@ MultiSend: %1</translation>
         <translation>S&amp;pustit alias</translation>
     </message>
     <message>
-        <source>Start &amp;all</source>
+        <source>Start &amp;everything</source>
         <translation>Spustit &amp;vše</translation>
     </message>
     <message>
@@ -1255,7 +1255,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Start alias</source>
-        <translation>Spustit alias:</translation>
+        <translation>Spustit alias</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
@@ -1282,12 +1282,12 @@ MultiSend: %1</translation>
         <translation>Nemůžete použít tento příkaz, dokud nebude seznam masternodů synchronizován</translation>
     </message>
     <message>
-        <source>Confirm missing masternodes start</source>
+        <source>Confirm missing masternode start</source>
         <translation>Potvrdit spuštění chybějícího masternodu</translation>
     </message>
     <message>
         <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Opravdu chcete spostit CHYBĚJÍCÍ masternody?</translation>
+        <translation>Opravdu chcete spustit CHYBĚJÍCÍ masternody?</translation>
     </message>
 </context>
 <context>
@@ -1301,16 +1301,16 @@ MultiSend: %1</translation>
         <translation>Zadejte celá čísla 1-100</translation>
     </message>
     <message>
-        <source>Enter % to Give (1-100)</source>
+        <source>Enter % to give (1-100)</source>
         <translation>Zadejte % pro získání (1-100)</translation>
     </message>
     <message>
-        <source>Enter Address to Send to</source>
+        <source>Enter the address to send the payment to</source>
         <translation>Zadejte adresu pro odeslání platby</translation>
     </message>
     <message>
-        <source>Add to MultiSend Vector</source>
-        <translation>Přidat MultiSend Vektor</translation>
+        <source>Add to MultiSend vector</source>
+        <translation>Přidat do MultiSend vektoru</translation>
     </message>
     <message>
         <source>Add</source>
@@ -1325,7 +1325,7 @@ MultiSend: %1</translation>
         <translation>Deaktivovat</translation>
     </message>
     <message>
-        <source>Choose an address from the address book</source>
+        <source>Choose the address from the address book</source>
         <translation>Vybrat adresu z Vašeho seznamu adres</translation>
     </message>
     <message>
@@ -1338,10 +1338,10 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Percentage:</source>
-        <translation>Procento:</translation>
+        <translation>Procenta:</translation>
     </message>
     <message>
-        <source>Address to send portion of stake to</source>
+        <source>Address to send the portion of stake to</source>
         <translation>Adresa pro zaslání části sázky</translation>
     </message>
     <message>
@@ -1349,8 +1349,8 @@ MultiSend: %1</translation>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>Delete Address From MultiSend Vector</source>
-        <translation>Smazat adresu z MultiSend Vektoru</translation>
+        <source>Delete the address from the MultiSend vector</source>
+        <translation>Smazat adresu z MultiSend vektoru</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -1365,19 +1365,19 @@ MultiSend: %1</translation>
         <translation>Aktivovat</translation>
     </message>
     <message>
-        <source>View MultiSend Vector</source>
-        <translation>Zobrazit MultiSend Vecktor</translation>
+        <source>View the MultiSend vector</source>
+        <translation>Zobrazit MultiSend vektor</translation>
     </message>
     <message>
         <source>View MultiSend</source>
         <translation>Zobrazit MultiSend</translation>
     </message>
     <message>
-        <source>Send For Stakes</source>
+        <source>Send for the stakes</source>
         <translation>Poslat pro sázky</translation>
     </message>
     <message>
-        <source>Send For Masternode Rewards</source>
+        <source>Send for the masternodes rewards</source>
         <translation>Poslat pro odměny masternodů</translation>
     </message>
     <message>
@@ -1387,25 +1387,25 @@ MultiSend: %1</translation>
 </translation>
     </message>
     <message>
-        <source> is invalid.
+        <source> is not valid.
 Please check the address and try again.</source>
         <translation>není validní.
 Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     <message>
-        <source>The total amount of your MultiSend vector is over 100% of your stake reward
+        <source>The total amount of your MultiSend vector is over 100 % of your stake reward
 </source>
-        <translation>Celková hodnota Vašeho MultiSend Vektoru je přes 100% vaší odměny ze sázení
+        <translation>Celková hodnota Vašeho MultiSend vektoru je přes 100 % vaší odměny ze vsázení
 </translation>
     </message>
     <message>
-        <source>Please Enter 1 - 100 for percent.</source>
-        <translation>Prosím, zadejte 1 - 100 pro procenta.</translation>
+        <source>Please enter 1 - 100 percent.</source>
+        <translation>Prosím, zadejte 1 - 100 procent.</translation>
     </message>
     <message>
-        <source>MultiSend Vector
+        <source>MultiSend vector
 </source>
-        <translation>MultiSend Vektor
+        <translation>MultiSend vektor
 </translation>
     </message>
     <message>
@@ -1413,7 +1413,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Odstraněno</translation>
     </message>
     <message>
-        <source>Could not locate address
+        <source>Could not locate the address
 </source>
         <translation>Nemůžu najít adresu
 </translation>
@@ -1422,19 +1422,19 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>ObfuscationConfig</name>
     <message>
-        <source>Configure Obfuscation</source>
-        <translation>Konfigurace Obfuskace</translation>
+        <source>Configure the obfuscation</source>
+        <translation>Konfigurace obfuskace</translation>
     </message>
     <message>
-        <source>Basic Privacy</source>
+        <source>Basic privacy protection</source>
         <translation>Základní ochrana soukromí</translation>
     </message>
     <message>
-        <source>High Privacy</source>
+        <source>High privacy protection</source>
         <translation>Vysoká ochrana soukromí</translation>
     </message>
     <message>
-        <source>Maximum Privacy</source>
+        <source>Maximum privacy protection</source>
         <translation>Maximální ochrana soukromí</translation>
     </message>
     <message>
@@ -1442,28 +1442,28 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Vyberte úrověň ochrany soukromí</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 Ips</source>
-        <translation>Použít 2 oddělené masternody k promíchání prostředků až do 10000 Ips</translation>
+        <source>Use 2 separate masternodes to mix the funds up to 10000 IPSUM</source>
+        <translation>Použít 2 oddělené masternody k promíchání prostředků až do 10000 IPSUM</translation>
     </message>
     <message>
-        <source>Use 16 separate masternodes</source>
+        <source>Use 16 separated masternodes</source>
         <translation>Použít 16 oddělených masternodů</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 Ips to anonymize 10000 Ips</source>
-        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 Ips pro anonymizaci 10000 Ips</translation>
+        <source>This option is the quickest and will cost about ~0.025 IPSUM to anonymize 10000 IPSUM.</source>
+        <translation>Tato možnost je nejrychleší a bude stát zhruba ~0.025 IPSUM pro anonymizaci 10000 IPSUM.</translation>
     </message>
     <message>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <source>This is the slowest and the most secure option. Using maximum anonymity will cost</source>
         <translation>Toto je nejpomalejší a nejbezpečnější volba. Použití maximalní anonymity bude stát</translation>
     </message>
     <message>
-        <source>0.1 Ips per 10000 Ips you anonymize.</source>
-        <translation>0.1 Ips za 10000 Ips, které anonymizujete.</translation>
+        <source>0.1 IPSUM per 10000 IPSUM anonymization.</source>
+        <translation>0.1 IPSUM za anonymizaci 10000 IPSUM.</translation>
     </message>
     <message>
-        <source>Obfuscation Configuration</source>
-        <translation>Konfigurace Obfuskace</translation>
+        <source>Obfuscation configuration</source>
+        <translation>Konfigurace obfuskace</translation>
     </message>
     </context>
 <context>
@@ -1477,12 +1477,12 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>URI:</translation>
     </message>
     <message>
-        <source>Select payment request file</source>
+        <source>Select the payment request file</source>
         <translation>Vybrat soubor vyžádání platby</translation>
     </message>
     <message>
-        <source>Select payment request file to open</source>
-        <translation>Vybrat soubor vyžádání platby pro otevření</translation>
+        <source>Select the payment request file to open</source>
+        <translation>Vybrat soubor vyžádání platby k otevření</translation>
     </message>
 </context>
 <context>
@@ -1496,7 +1496,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>&amp;Hlavní</translation>
     </message>
     <message>
-        <source>Size of &amp;database cache</source>
+        <source>Size of &amp;the database cache</source>
         <translation>Velikost &amp;databatové cache</translation>
     </message>
     <message>
@@ -1512,11 +1512,11 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>P&amp;eněženka</translation>
     </message>
     <message>
-        <source>Accept connections from outside</source>
+        <source>Accept the connections from outside</source>
         <translation>Přijmout připojení z venčí</translation>
     </message>
     <message>
-        <source>Allow incoming connections</source>
+        <source>Allow the incoming connections</source>
         <translation>Povolit příchozí spojení</translation>
     </message>
     <message>
@@ -1524,20 +1524,20 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start Ips after logging in to the system.</source>
-        <translation>Automaticky spustit Ips po přihlášení do systému</translation>
+        <source>Automatically start the IPSUM wallet after logging in to the system.</source>
+        <translation>Automaticky spustit IPSUM peněženku po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start Ips on system login</source>
-        <translation>&amp;Spustit Ips při přihlášení do systému</translation>
+        <source>&amp;Start IPSUM wallet on the system login</source>
+        <translation>&amp;Spustí IPSUM peněženku při přihlášení do systému</translation>
     </message>
     <message>
-        <source>Amount of Ips to keep anonymized</source>
-        <translation>Počet Ips pro anonymní držení</translation>
+        <source>Amount of IPSUM to keep anonymized</source>
+        <translation>Počet IPSUM pro anonymní držení</translation>
     </message>
     <message>
-        <source>Show Masternodes Tab</source>
-        <translation>Zobrazit záložku Masternodů</translation>
+        <source>Show the masternodes tab</source>
+        <translation>Zobrazit záložku masternodů</translation>
     </message>
     <message>
         <source>&amp;Network</source>
@@ -1572,12 +1572,12 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>&amp;Zobrazit</translation>
     </message>
     <message>
-        <source>Reset all client options to default.</source>
-        <translation>Obnovit všechny klintské volby na výchozí hodnoty.</translation>
+        <source>Reset all the client options to the default.</source>
+        <translation>Resetovat všechny klintské volby na výchozí hodnoty.</translation>
     </message>
     <message>
-        <source>&amp;Reset Options</source>
-        <translation>&amp;Resetovat Volby</translation>
+        <source>&amp;Reset the options</source>
+        <translation>&amp;Resetovat volby</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1592,14 +1592,14 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>žádný</translation>
     </message>
     <message>
-        <source>Confirm options reset</source>
-        <translation>Potvrdit obnovení voleb</translation>
+        <source>Confirm the options reset</source>
+        <translation>Potvrdit resetování voleb</translation>
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>Form</source>
+        <source>From</source>
         <translation>Od</translation>
     </message>
     <message>
@@ -1635,16 +1635,16 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Stav:</translation>
     </message>
     <message>
-        <source>Obfuscation Balance:</source>
-        <translation>Obfuskační Zůstatek:</translation>
+        <source>Obfuscation balance:</source>
+        <translation>Obfuskační zůstatek:</translation>
     </message>
     <message>
-        <source>0 Ips / 0 Rounds</source>
-        <translation>0 Ips / 0 Kol</translation>
+        <source>0 IPSUM / 0 Rounds</source>
+        <translation>0 IPSUM / 0 Kol</translation>
     </message>
     <message>
-        <source>Enabled/Disabled</source>
-        <translation>Zapnuto/Vypnuto</translation>
+        <source>Enabled / Disabled</source>
+        <translation>Zapnuté / Vypnuté</translation>
     </message>
     <message>
         <source>Obfuscation</source>
@@ -1655,12 +1655,12 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>n/a</translation>
     </message>
     <message>
-        <source>Start/Stop Mixing</source>
-        <translation>Spustit/Zastavit Míchání</translation>
+        <source>Start / Stop Mixing</source>
+        <translation>Spustit / Zastavit Míchání</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Obnovit</translation>
+        <translation>Reset</translation>
     </message>
     <message>
         <source>Disabled</source>
@@ -1668,7 +1668,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     <message>
         <source>No inputs detected</source>
-        <translation>Nezjištěny žádné vstupy</translation>
+        <translation>Nedetekovány žádné vstupy</translation>
     </message>
     <message>
         <source>Overall progress</source>
@@ -1679,31 +1679,31 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Anonymizováno</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully reset.</source>
-        <translation>Obfuskace byla úspěšně obnovena</translation>
+        <source>Obfuscation was successfully reseted.</source>
+        <translation>Obfuskace byla úspěšně resetována.</translation>
     </message>
     <message>
-        <source>Start Obfuscation</source>
-        <translation>Spustit Obfuskaci</translation>
+        <source>Start the obfuscation</source>
+        <translation>Spustit obfuskaci</translation>
     </message>
     <message>
-        <source>Stop Obfuscation</source>
-        <translation>Zastavit Obfuskaci</translation>
+        <source>Stop the obfuscation</source>
+        <translation>Zastavit obfuskaci</translation>
     </message>
     <message>
         <source>Enabled</source>
         <translation>Zapnuto</translation>
     </message>
     <message>
-        <source>N/A</source>
-        <translation>N/A</translation>
+        <source>n/a</source>
+        <translation>n/a</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Špatná platební adresa %1</translation>
+        <translation>Nevalidní adresa pro platbu %1</translation>
     </message>
     </context>
 <context>
@@ -1713,7 +1713,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Verze</translation>
     </message>
     <message>
-        <source>Ping Time</source>
+        <source>Ping time</source>
         <translation>Čas pingnutí</translation>
     </message>
 </context>
@@ -1740,21 +1740,21 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>%1 s</translation>
     </message>
     <message>
-        <source>N/A</source>
-        <translation>N/A</translation>
+        <source>n/a</source>
+        <translation>n/a</translation>
     </message>
     </context>
 <context>
     <name>QRImageWidget</name>
     <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Uložit Obrázek...</translation>
+        <source>&amp;Save image...</source>
+        <translation>&amp;Uložit obrázek...</translation>
     </message>
     </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <source>&amp;Information</source>
+        <source>&amp;Informations</source>
         <translation>&amp;Informace</translation>
     </message>
     <message>
@@ -1770,11 +1770,11 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Jméno klienta</translation>
     </message>
     <message>
-        <source>N/A</source>
-        <translation>N/A</translation>
+        <source>n/a</source>
+        <translation>n/a</translation>
     </message>
     <message>
-        <source>Number of connections</source>
+        <source>Number of the connections</source>
         <translation>Počet spojení</translation>
     </message>
     <message>
@@ -1795,7 +1795,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Datum buildu</translation>
+        <translation>Čas buildu</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
@@ -1803,19 +1803,19 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Verze klienta</translation>
+        <translation>Verze Klienta</translation>
     </message>
     <message>
-        <source>Block chain</source>
+        <source>Blockchain</source>
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Number of Masternodes</source>
-        <translation>Počet Masternodů</translation>
+        <source>Number of masternodes</source>
+        <translation>Počet masternodů</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>Konzole</translation>
+        <translation>&amp;Konzole</translation>
     </message>
     <message>
         <source>Clear console</source>
@@ -1826,7 +1826,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>&amp;Vymazat</translation>
     </message>
     <message>
-        <source>Totals</source>
+        <source>Total</source>
         <translation>Celkem</translation>
     </message>
     <message>
@@ -1858,36 +1858,36 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Služby</translation>
     </message>
     <message>
-        <source>Last Send</source>
-        <translation>Poslední Odeslané</translation>
+        <source>Last sent</source>
+        <translation>Poslední odeslané</translation>
     </message>
     <message>
-        <source>Last Receive</source>
-        <translation>Poslední Přijaté</translation>
+        <source>Last received</source>
+        <translation>Poslední přijaté</translation>
     </message>
     <message>
-        <source>Bytes Sent</source>
-        <translation>Odeslané Byty</translation>
+        <source>Bytes sent</source>
+        <translation>Odeslané byty</translation>
     </message>
     <message>
-        <source>Bytes Received</source>
-        <translation>Přijaté Byty</translation>
+        <source>Bytes received</source>
+        <translation>Přijaté byty</translation>
     </message>
     <message>
-        <source>Ping Time</source>
-        <translation>Čas Pingnutí</translation>
+        <source>Ping time</source>
+        <translation>Čas pingnutí</translation>
     </message>
     <message>
-        <source>&amp;Wallet Repair</source>
-        <translation>&amp;Oprava Peněženky</translation>
+        <source>&amp;Wallet repair</source>
+        <translation>&amp;Oprava peněženky</translation>
     </message>
     <message>
-        <source>Rescan blockchain files</source>
-        <translation>Znovu skenovat soubory Blockchainu</translation>
+        <source>Rescan Blockchain files</source>
+        <translation>Reskenovat soubory Blockchainu</translation>
     </message>
     <message>
-        <source>Upgrade wallet format</source>
-        <translation>Aktualizovat formát peněženky</translation>
+        <source>Upgrade the wallet format</source>
+        <translation>Upgradovat formát peněženky</translation>
     </message>
     <message>
         <source>In:</source>
@@ -1895,7 +1895,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Výstup</translation>
+        <translation>Výstup:</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1925,7 +1925,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>&amp;Hodnota</translation>
     </message>
     <message>
-        <source>&amp;Request payment</source>
+        <source>&amp;Request the payment</source>
         <translation>&amp;Vyžádat platbu</translation>
     </message>
     <message>
@@ -1941,35 +1941,35 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Odstranit</translation>
     </message>
     <message>
-        <source>Copy label</source>
+        <source>Copy the label</source>
         <translation>Kopírovat popisek</translation>
     </message>
     <message>
-        <source>Copy message</source>
+        <source>Copy the message</source>
         <translation>Kopírovat zprávu</translation>
     </message>
     <message>
-        <source>Copy amount</source>
+        <source>Copy the amount</source>
         <translation>Kopírovat hodnotu</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>QR Code</source>
-        <translation>QR Kód</translation>
+        <source>QR code</source>
+        <translation>QR kód</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
         <translation>Kopírovat &amp;URI</translation>
     </message>
     <message>
-        <source>Copy &amp;Address</source>
-        <translation>Kopírovat &amp;Adresu</translation>
+        <source>Copy &amp;the address</source>
+        <translation>Kopírovat &amp;adresu</translation>
     </message>
     <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Uložit Obrázek...</translation>
+        <source>&amp;Save the image...</source>
+        <translation>&amp;Uložit obrázek...</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2058,20 +2058,20 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>ne</translation>
     </message>
     <message>
-        <source>After Fee:</source>
-        <translation>Po Poplatku:</translation>
+        <source>After the fee:</source>
+        <translation>Po poplatku:</translation>
     </message>
     <message>
         <source>Change:</source>
         <translation>Změna:</translation>
     </message>
     <message>
-        <source>0 Ips</source>
-        <translation>0 Ips</translation>
+        <source>0 IPSUM</source>
+        <translation>0 IPSUM</translation>
     </message>
     <message>
-        <source>Transaction Fee:</source>
-        <translation>Transakční Poplatek:</translation>
+        <source>Transaction fee:</source>
+        <translation>Poplatek transakce:</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -2106,12 +2106,12 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>O&amp;deslat</translation>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>Smazat &amp;Vše</translation>
+        <source>Clear &amp;everything</source>
+        <translation>Smazat &amp;vše</translation>
     </message>
     <message>
-        <source>Add &amp;Recipient</source>
-        <translation>Přidat &amp;Příjemce</translation>
+        <source>Add &amp;the recipient</source>
+        <translation>Přidat &amp;příjemce</translation>
     </message>
     <message>
         <source>SwiftTX</source>
@@ -2122,15 +2122,15 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Zůstatek:</translation>
     </message>
     <message>
-        <source>Copy quantity</source>
-        <translation>Kopíroat množství</translation>
+        <source>Copy the quantity</source>
+        <translation>Kopírovat množství</translation>
     </message>
     <message>
-        <source>Copy amount</source>
+        <source>Copy the amount</source>
         <translation>Kopírovat hodnotu</translation>
     </message>
     <message>
-        <source>Copy fee</source>
+        <source>Copy the fee</source>
         <translation>Kopírovat poplatek</translation>
     </message>
     <message>
@@ -2138,15 +2138,15 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat po poplatku</translation>
     </message>
     <message>
-        <source>Copy bytes</source>
+        <source>Copy the bytes</source>
         <translation>Kopírovat byty</translation>
     </message>
     <message>
-        <source>Copy priority</source>
+        <source>Copy the priority</source>
         <translation>Kopírovat prioritu</translation>
     </message>
     <message>
-        <source>Copy change</source>
+        <source>Copy the change</source>
         <translation>Kopírovat změnu</translation>
     </message>
     <message>
@@ -2161,7 +2161,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <source>Choose previously used address</source>
+        <source>Choose the previously used address</source>
         <translation>Vyberte již dříve použitou adresu</translation>
     </message>
     <message>
@@ -2169,7 +2169,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <source>Paste address from clipboard</source>
+        <source>Paste the address from the clipboard</source>
         <translation>Vložit adresu z mezipaměti</translation>
     </message>
     <message>
@@ -2189,7 +2189,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Zpráva:</translation>
     </message>
     <message>
-        <source>Pay To:</source>
+        <source>Pay to:</source>
         <translation>Zaplatit na:</translation>
     </message>
     </context>
@@ -2199,11 +2199,11 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The Ips address to sign the message with</source>
-        <translation>Ips adresa pro podepsání zprávy</translation>
+        <source>IPSUM address to sign the message with</source>
+        <translation>IPSUM adresa pro podepsání zprávy</translation>
     </message>
     <message>
-        <source>Choose previously used address</source>
+        <source>Choose the previously used address</source>
         <translation>Vyberte již dříve použitou adresu</translation>
     </message>
     <message>
@@ -2211,7 +2211,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <source>Paste address from clipboard</source>
+        <source>Paste the address from the clipboard</source>
         <translation>Vložit adresu z mezipaměti</translation>
     </message>
     <message>
@@ -2227,47 +2227,47 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Ips address</source>
-        <translation>Podepsat zprávu k prokázání, že tuto Ips adresu vlastníte</translation>
+        <source>Sign the message to prove you own this IPSUM address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto IPSUM adresu</translation>
     </message>
     <message>
-        <source>The Ips address the message was signed with</source>
-        <translation>Ips adresa zprávy, se kterou byla podpsána</translation>
+        <source>IPSUM address the message was signed with</source>
+        <translation>IPSUM adresa, se kterou byla zpráva podepsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Ips address</source>
-        <translation>Ověřte zprávu pro ujištění, že byla podepsána zmíněnou Ips adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified IPSUM address</source>
+        <translation>Ověřte zprávu pro ujištění, že byla podepsána zmíněnou IPSUM adresou</translation>
     </message>
     <message>
-        <source>Sign &amp;Message</source>
-        <translation>Podepsat &amp;Zprávu</translation>
+        <source>Sign &amp;the message</source>
+        <translation>Podepsat &amp;zprávu</translation>
     </message>
     <message>
-        <source>Reset all sign message fields</source>
-        <translation>Obnovit všechny položky podepsání zprávy</translation>
+        <source>Reset all the sign message fields</source>
+        <translation>Resetovat všechny položky podepsání zprávy</translation>
     </message>
     <message>
-        <source>Clear &amp;All</source>
-        <translation>Smazat &amp;Vše</translation>
+        <source>Clear &amp;everything</source>
+        <translation>Smazat &amp;vše</translation>
     </message>
     <message>
-        <source>Reset all verify message fields</source>
-        <translation>Obnovit všechny položky pro ověření zprávy</translation>
+        <source>Reset all the verify message fields</source>
+        <translation>Resetovat všechny položky pro ověření zprávy</translation>
     </message>
     <message>
-        <source>The entered address is invalid.</source>
+        <source>The entered address is not valid.</source>
         <translation>Zadaná adresa není validní.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Prosím zkontolujte adresu a zkuste to znovu.</translation>
+        <translation>Prosím, zkontolujte adresu a zkuste to znovu.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
         <translation>Zadaná adresa neodpovídá klíči.</translation>
     </message>
     <message>
-        <source>Wallet unlock was cancelled.</source>
+        <source>Wallet unlockation was cancelled.</source>
         <translation>Odemknutí peněženky bylo zrušeno.</translation>
     </message>
     <message>
@@ -2278,8 +2278,8 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Ips</source>
-        <translation>Ips</translation>
+        <source>IPSUM</source>
+        <translation>IPSUM</translation>
     </message>
     </context>
 <context>
@@ -2321,24 +2321,24 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>TransactionView</name>
     <message>
-        <source>Copy address</source>
+        <source>Copy the address</source>
         <translation>Kopírovat adresu</translation>
     </message>
     <message>
-        <source>Copy label</source>
+        <source>Copy the label</source>
         <translation>Kopírovat popisek</translation>
     </message>
     <message>
-        <source>Copy amount</source>
+        <source>Copy the amount</source>
         <translation>Kopírovat hodnotu</translation>
     </message>
     <message>
-        <source>Copy transaction ID</source>
+        <source>Copy the transaction ID</source>
         <translation>Kopírovat ID transakce</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Soubor oddělený čárkou (*.csv)</translation>
+        <translation>Soubor oddělený tečkou (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
@@ -2357,8 +2357,8 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Adresa</translation>
     </message>
     <message>
-        <source>Exporting Failed</source>
-        <translation>Export Selhal</translation>
+        <source>Exporting has failed</source>
+        <translation>Export selhal</translation>
     </message>
     </context>
 <context>
@@ -2377,8 +2377,8 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>&amp;Exportovat</translation>
     </message>
     <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exportovat data z aktuální záložky do souboru</translation>
+        <source>Export the data from the current tab to a file</source>
+        <translation>Exportovat data z aktulní záložky do souboru</translation>
     </message>
     </context>
 <context>
@@ -2388,12 +2388,12 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Chyba</translation>
     </message>
     <message>
-        <source>Information</source>
+        <source>Informations</source>
         <translation>Informace</translation>
     </message>
     <message>
         <source>SwiftTX options:</source>
-        <translation>SwiftTX možnosti:</translation>
+        <translation>SwiftTx možnosti:</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -2404,7 +2404,7 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Synchronizace dokončena</translation>
     </message>
     <message>
-        <source>Synchronization pending...</source>
+        <source>Synchronization is pending...</source>
         <translation>Synchronizace probíhá...</translation>
     </message>
     <message>
@@ -2420,39 +2420,39 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Synchronizace masternodů...</translation>
     </message>
     <message>
-        <source>This is experimental software.</source>
+        <source>This is the experimental software.</source>
         <translation>Toto je experimentální software.</translation>
     </message>
     <message>
-        <source>This is not a Masternode.</source>
-        <translation>Toto není Masternode.</translation>
+        <source>This is not a masternode.</source>
+        <translation>Toto není masternode.</translation>
     </message>
     <message>
-        <source>Transaction amount too small</source>
+        <source>Transaction amount is too small</source>
         <translation>Hodnota transakce je příliš malá</translation>
     </message>
     <message>
-        <source>Transaction amounts must be positive</source>
+        <source>Transaction amount must be positive</source>
         <translation>Hodnota transakce musí být kladná</translation>
     </message>
     <message>
-        <source>Transaction created successfully.</source>
+        <source>Transaction was created successfully.</source>
         <translation>Transakce byla uspěšně vytvořena.</translation>
     </message>
     <message>
-        <source>Transaction fees are too high.</source>
+        <source>Transaction fee is too high.</source>
         <translation>Poplatek za transakci je příliš vysoký.</translation>
     </message>
     <message>
-        <source>Transaction not valid.</source>
+        <source>Transaction is not valid.</source>
         <translation>Transakce není validní.</translation>
     </message>
     <message>
-        <source>Transaction too large for fee policy</source>
+        <source>Transaction is too large for the fee policy</source>
         <translation>Transakce je příliš velká s ohledem na pravidla poplatků</translation>
     </message>
     <message>
-        <source>Transaction too large</source>
+        <source>Transaction is too large</source>
         <translation>Transakce je příliš velká</translation>
     </message>
     <message>
@@ -2464,24 +2464,24 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Neznámý stav: id = %u</translation>
     </message>
     <message>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Aktualizovat peněženku do nejnovějšího formátu</translation>
+        <source>Upgrade wallet to the latest format</source>
+        <translation>Upgradovat peněženku do nejnovějšího formátu</translation>
     </message>
     <message>
         <source>Use the test network</source>
         <translation>Použít testovací síť</translation>
     </message>
     <message>
-        <source>Verifying blocks...</source>
+        <source>Verifying the blocks...</source>
         <translation>Ověřování bloků...</translation>
     </message>
     <message>
-        <source>Verifying wallet...</source>
+        <source>Verifying the wallet...</source>
         <translation>Ověřování peněženky...</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Peněženka je zamčená</translation>
+        <translation>Peněženka je zamčená.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -2496,12 +2496,12 @@ Prosím, zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Varování</translation>
     </message>
     <message>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Varování: Tato verze je zastaralá, vyžaduje aktualizaci!</translation>
+        <source>Warning: This version is obsolete, upgrade is required!</source>
+        <translation>Varování: Tato verze je zastaralá, je vyžadován upgrade!</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Varování: Nepodporovaný argument -benchmark je ignorován, použijte -debug=bench</translation>
+        <translation>Varování: Nepodporovaný argument -benchmark je ignorován, použijte -debug=bench.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
