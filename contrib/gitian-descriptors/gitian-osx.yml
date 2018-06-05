@@ -27,6 +27,8 @@ packages:
 - "python-dev"
 - "python-setuptools"
 - "fonts-tuffy"
+- "libc6"
+- "libc6-dev"
 remotes:
 - "url": "https://github.com/ipsum-network/ips.git"
   "dir": "ips"
