@@ -1,5 +1,5 @@
 ---
-name: "ips-osx-3.0"
+name: "ips-osx-3.1"
 enable_cache: true
 suites:
 - "trusty"
@@ -87,7 +87,7 @@ script: |
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
-  tar -C ${BASEPREFIX}/SDKs -xf ${BUILD_DIR}/MacOSX10.11.sdk.tar.gz
+  tar -C ${BASEPREFIX}/SDKs -xaf ${BUILD_DIR}/MacOSX10.11.sdk.tar.gz
 
   # Build dependencies for each host
   for i in $HOSTS; do
