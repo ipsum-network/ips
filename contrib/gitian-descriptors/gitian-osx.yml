@@ -87,6 +87,7 @@ script: |
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs
+  ls -alh ${BUILD_DIR}
   tar -C ${BASEPREFIX}/SDKs -xaf ${BUILD_DIR}/MacOSX10.11.sdk.tar.gz
 
   # Build dependencies for each host
