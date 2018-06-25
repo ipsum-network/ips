@@ -31,10 +31,13 @@ RUN ./autogen.sh && \
     ./configure && \
     make && \
     strip src/ipsd && \
-    strip src/ips-cli
+    strip src/ips-cli && \
+    mv src/ipsd /usr/local/bin/ && \
+    mv src/ips-cli /usr/local/bin/ && \
+    rm -rf /ips 
 
 VOLUME ["/root/.ips"]
 
 EXPOSE 22331
 
-CMD exec /ips/src/ipsd && tail -f /root/.ips/debug.log
+CMD exec ipsd && tail -f /root/.ips/debug.log
