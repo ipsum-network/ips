@@ -37,4 +37,4 @@ VOLUME ["/root/.ips"]
 
 EXPOSE 22331
 
-CMD /ips/src/ipsd && tail -f /root/.ips/debug.log
+CMD exec /ips/src/ipsd && tail -f /root/.ips/debug.log
