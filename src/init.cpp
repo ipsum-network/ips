@@ -1660,5 +1660,11 @@ bool AppInit2(boost::thread_group& threadGroup)
         threadGroup.create_thread(boost::bind(&ThreadFlushWalletDB, boost::ref(pwalletMain->strWalletFile)));
     }
 #endif
-
+/* Alexey Vesnin netsafe@github - a quick fix
+If using modern compilers like GCC 8 - this will be where the warning is issued
+and after successfull compilation - ipsd daemon in daemon=0 mode for systemd will "start-and-exit"
+without any error or warning issued, STrace reveals no details too. The problem is that the function
+has to return a boolean value, and all the errors are already pre-checked and complementary "return false;"
+statements are in order upstrings. So we'll just return true - and the logic is fixed, so as the ipsd */
+    return true;
 }
