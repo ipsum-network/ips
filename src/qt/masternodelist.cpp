@@ -108,7 +108,7 @@ void MasternodeList::StartAlias(std::string strAlias)
 
     updateMyNodeList(true);
 }
-
+/*
 void MasternodeList::StartAll(std::string strCommand)
 {
     int nCountSuccessful = 0;
@@ -153,7 +153,7 @@ void MasternodeList::StartAll(std::string strCommand)
 
     updateMyNodeList(true);
 }
-
+*/
 void MasternodeList::updateMyMasternodeInfo(QString strAlias, QString strAddr, CMasternode* pmn)
 {
     LOCK(cs_mnlistupdate);
@@ -251,7 +251,7 @@ void MasternodeList::on_startButton_clicked()
 
     StartAlias(strAlias);
 }
-
+/*
 void MasternodeList::on_startAllButton_clicked()
 {
     // Display message box
@@ -275,7 +275,7 @@ void MasternodeList::on_startAllButton_clicked()
 
     StartAll();
 }
-
+*/
 void MasternodeList::on_startMissingButton_clicked()
 {
     if (!masternodeSync.IsMasternodeListSynced()) {
@@ -300,11 +300,11 @@ void MasternodeList::on_startMissingButton_clicked()
 
         if (!ctx.isValid()) return; // Unlock wallet was cancelled
 
-        StartAll("start-missing");
+       // StartAll("start-missing");
         return;
     }
 
-    StartAll("start-missing");
+    //StartAll("start-missing");
 }
 
 void MasternodeList::on_tableWidgetMyMasternodes_itemSelectionChanged()
