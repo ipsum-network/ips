@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+/.vs/ips/v15/.suo
+/.vs/ips/v15/Browse.VC.db
+/.vs/ips/v15/Browse.VC.opendb
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
