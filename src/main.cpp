@@ -1598,11 +1598,13 @@ int64_t GetBlockValue(int nHeight)
 {
     int64_t nSubsidy = 2 * COIN;
 
-	 if (IsTreasuryBlock(nHeight)) {
+	 if (IsTreasuryBlock(nHeight)) 
+	 {
         LogPrintf("GetBlockValue(): this is a treasury block\n");
         nSubsidy = GetTreasuryAward(nHeight);
 
-    }else{ (nHeight == 0) {
+    }else{ 
+		 if (nHeight == 0) {
       nSubsidy = 250000 * COIN; //Genesis
     } else if (nHeight > 0 && nHeight <= 3000) { //POW
       nSubsidy = 1 * COIN;
