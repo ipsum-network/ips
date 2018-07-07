@@ -286,7 +286,8 @@ bool IsBlockPayeeValid(const CBlock& block, int nBlockHeight)
             if (masternodePayments.IsTransactionValid(txNew, nBlockHeight)) 
             return true;
         LogPrint("masternode", "Invalid mn payment detected %s\n", txNew.ToString().c_str());
-        if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT)) + return false;
+        if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT)) 
+			return false;
         LogPrint("masternode", "Masternode payment enforcement is disabled, accepting block\n");
         
     }
