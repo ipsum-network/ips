@@ -1596,36 +1596,36 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
 
 int64_t GetBlockValue(int nHeight)
 {
-    int64_t nSubsidy = 2 * COIN;
+	int64_t nSubsidy = 2 * COIN;
 
-	 if (IsTreasuryBlock(nHeight)) 
-	 {
-        LogPrintf("GetBlockValue(): this is a treasury block\n");
-        nSubsidy = GetTreasuryAward(nHeight);
+		if (IsTreasuryBlock(nHeight))
+		{
+		LogPrintf("GetBlockValue(): this is a treasury block\n");
+		nSubsidy = GetTreasuryAward(nHeight);
 
-    }else{ 
-		 if (nHeight == 0) {
-      nSubsidy = 250000 * COIN; //Genesis
-    } else if (nHeight > 0 && nHeight <= 3000) { //POW
-      nSubsidy = 1 * COIN;
-    } else if (nHeight > 3000 && nHeight <= 43200) {
-      nSubsidy = 125 * COIN;
-    } else if (nHeight > 43200 && nHeight <= 86400) {
-      nSubsidy = 145 * COIN;
-    } else if (nHeight > 86400 && nHeight <= 108000) {
-      nSubsidy = 72 * COIN;
-    } else if (nHeight > 108000 && nHeight <= 129600) {
-      nSubsidy = 36 * COIN;
-    } else if (nHeight > 129600 && nHeight <= 151200) {
-      nSubsidy = 18 * COIN;
-    } else if (nHeight > 151200) {
-      nSubsidy = 9 * COIN;
-    }
-
-    return nSubsidy;
+		}else {
+		if (nHeight == 0) {
+			nSubsidy = 250000 * COIN; //Genesis
+		}else if (nHeight > 0 && nHeight <= 3000) { //POW
+			nSubsidy = 1 * COIN;
+		}else if (nHeight > 3000 && nHeight <= 43200) {
+			nSubsidy = 125 * COIN;
+		}else if (nHeight > 43200 && nHeight <= 86400) {
+			nSubsidy = 145 * COIN;
+		}else if (nHeight > 86400 && nHeight <= 108000) {
+			nSubsidy = 72 * COIN;
+		}else if (nHeight > 108000 && nHeight <= 129600) {
+			nSubsidy = 36 * COIN;
+		}else if (nHeight > 129600 && nHeight <= 151200) {
+			nSubsidy = 18 * COIN;
+		}else if (nHeight > 151200) {
+			nSubsidy = 9 * COIN;
+		}
+		return nSubsidy;
+		}
 }
 
-int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount)
+	int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount)
 {
     int64_t ret = 0;
 
@@ -1645,8 +1645,8 @@ bool IsTreasuryBlock(int nHeight)
 		return true;
     else 
 		return false;
-    
 }
+
 int64_t GetTreasuryAward(int nHeight) 
 {
     if (IsTreasuryBlock(nHeight))
@@ -1655,7 +1655,6 @@ int64_t GetTreasuryAward(int nHeight)
 			return 10000 * COIN; //10,000 for the first treasury block
         else 
 			return 0.9 * COIN;                                 //10% from each block after
-        
     }
     else 
 		return 0;
