@@ -264,7 +264,8 @@ bool IsBlockPayeeValid(const CBlock& block, int nBlockHeight)
         if (!bFound)
         {
             LogPrint("masternode", "Invalid treasury payment detected %s\n", txNew.ToString().c_str());
-            if (IsSporkActive(SPORK_17_TREASURY_PAYMENT_ENFORCEMENT)) + return false;
+            if (IsSporkActive(SPORK_17_TREASURY_PAYMENT_ENFORCEMENT)) 
+				return false;
             else
             {
                 LogPrint("masternode", "SPORK_17_TREASURY_PAYMENT_ENFORCEMENT is not enabled, accept anyway\n");
