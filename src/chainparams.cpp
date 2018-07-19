@@ -88,7 +88,7 @@ public:
     {
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
-        vTreasuryRewardAddress = "iSv6vXhSbb7WH8D3dVHuWecZ7pGj4AJMmt";
+        vTreasuryRewardAddress = ""; //Enter Address Here
         nDefaultPort = 22331;
 
         pchMessageStart[0] = 0xb1;
