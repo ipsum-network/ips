@@ -1878,8 +1878,6 @@ CAmount GetSeeSaw(const CAmount& blockValue, int nMasternodeCount, int nHeight)
 
     		return ret;
 	}
-	
-}
 
 //Treasury blocks start from 170,000 and then each block after
 int nStartTreasuryBlock = 170000;
