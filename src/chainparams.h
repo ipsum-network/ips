@@ -95,6 +95,11 @@ public:
     int64_t StartMasternodePayments() const { return nStartMasternodePayments; }
     CBaseChainParams::Network NetworkID() const { return networkID; }
 
+	 std::string vTreasuryRewardAddress;
+    
+         std::string GetTreasuryRewardAddressAtHeight(int height) const;
+     CScript GetTreasuryRewardScriptAtHeight(int height) const;
+
 protected:
     CChainParams() {}
 

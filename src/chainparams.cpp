@@ -10,6 +10,8 @@
 #include "random.h"
 #include "util.h"
 #include "utilstrencodings.h"
+#include "net.h"
+#include "base58.h"
 
 #include <assert.h>
 
@@ -86,6 +88,7 @@ public:
     {
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
+        vTreasuryRewardAddress = ""; //Enter Address Here
         nDefaultPort = 22331;
 
         pchMessageStart[0] = 0xb1;
@@ -163,6 +166,22 @@ public:
         return data;
     }
 };
+
+ std::string CChainParams::GetTreasuryRewardAddressAtHeight(int nHeight) const
+{
+    return vTreasuryRewardAddress;
+    
+}
+
+     CScript CChainParams::GetTreasuryRewardScriptAtHeight(int nHeight) const
+{
+    CBitcoinAddress address(GetTreasuryRewardAddressAtHeight(nHeight).c_str());
+    assert(address.IsValid());
+    CScript script = GetScriptForDestination(address.Get());
+    return script;
+    
+}
+
 static CMainParams mainParams;
 
 /**
